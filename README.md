@@ -63,3 +63,9 @@
 ```
     npm run dev
 ```
+
+### adding plugins and depencencies
+
+```
+npm install @reduxjs/toolkit react-router-dom react-icons react-chartjs-2 chart.js daisyui axios react-hot-toast @tailwindcss/line-clamp
+```
