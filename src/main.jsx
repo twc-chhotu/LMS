@@ -8,10 +8,10 @@ import { Toaster } from "react-hot-toast";
 import store from "./Redux/Store.js";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
-  <Provider store={store}>
-    <BrowserRouter>
-      <App />
-      <Toaster />
-    </BrowserRouter>
-  </Provider>
+  // <Provider store={store}>
+  <BrowserRouter>
+    <App />
+    <Toaster />
+  </BrowserRouter>
+  // </Provider>
 );
