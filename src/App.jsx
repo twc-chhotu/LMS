@@ -1,5 +1,11 @@
+import { Route } from "react-router-dom";
+import "./app.css";
 function App() {
-  return <div className="bg-red-600 text-3xl text-white">lms</div>;
+  return (
+    <>
+      <Route></Route>
+    </>
+  );
 }
 
 export default App;
